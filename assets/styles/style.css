@@ -301,6 +301,8 @@ span{
     width: 100%;
     display: block;
 
+    padding: 100px 0;
+
 }
 
 .mobile__title{
@@ -431,7 +433,7 @@ span{
 
 .mobile__icon{
     display: block;
-    position: relative;
+    position: absolute;
     right: 500px;
 
 
@@ -449,8 +451,57 @@ span{
 
 
 
+.best {
+    padding: 100px 0;
+
+}
+.best__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px 0 0 0;
+
+    img{
+        width: 45%;
+
+    }
+
+}
+.best__arrow {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    background-color: #ff0000;
+    border-radius: 100%;
+
+    min-width: 85px;
+    height: 85px;
+
+    opacity: 0.5;
+
+    transition: 0.4s;
+
+    &:hover{
+        opacity: 1;
+
+    }
 
 
+}
+.best__arrow1 {
+
+}
+.best__arrow2 {
+
+}
+
+.best__icon{
+    margin: 0 auto;
+
+}
 
 
 
